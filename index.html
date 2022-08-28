@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Chatbot</title>
+    <style>
+        * {
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100vw;
+            height: 100vh;
+            background-color: #002147;
+        }
+
+        h1 {
+            color: white;
+            padding-top: 30px;
+        }
+
+        .container {
+            display: flex;
+            width: 100vw;
+            margin-top: 60px;
+            height: auto;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .child{
+            height: 500px;
+            width: 500px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        @media (max-width: 768px) {
+            .body {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="font-effect-shadow-multiple">Chatbot</h1>
+    <div class="container">
+        <div class="child">
+            <iframe
+                src="https://console.dialogflow.com/api-client/demo/embedded/54abc044-fcc5-48e3-8bda-1e1f32e5e16b"
+                style="border-radius: 10px;" height="100%" width="100%"></iframe>
+        </div>
+
+        <div class="child">
+            <img src="assets/Proactive-chatbot.png" alt="#" height="100%" width="100%">
+        </div>
+    </div>
+</body>
+
+</html>
